@@ -1,0 +1,21 @@
+{
+    "db-connections":{
+        "mongodb":{
+            "host": "cluster0.3svcd.mongodb.net",
+            "user": "acad_rest_api_user",
+            "password": "Felipe0903",
+            "dbname": "AcademicDB"
+
+        }
+    },
+    "secretKeys":{
+        "cryptojs":"gafBr@z6BpU",
+        "jwt" : "ABC@2020*123"
+    },
+    "roles":{
+        "student" : 1,
+        "teacher" : 2 
+    },
+    "server-port": 3000,
+    "sessionTime" : 3600
+}
